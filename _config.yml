@@ -1,0 +1,6 @@
+# Site settings
+title: SESYNC Jekyll Template
+email: itrequests@sesync.org
+description: "SESYNC Technical Blog"
+# Build settings
+markdown: kramdown
