@@ -93,13 +93,21 @@
 /*
  * Base Tag Formatting
  */
-html,body,.main-body .row, .main-content, .sidebar-content {
+html,body,.main-body>.row, .main-content, .sidebar-content {
     height: 100%;
 }
 .logo-row {
     background: #000 none repeat;
     padding: 15px;
     height: 100px;
+}
+
+.page-header {
+    margin: 0px 0px 0px;
+}
+.page-header h1 {
+    margin-top: 5px;
+    text-transform: uppercase;
 }
 
 .main-body {
@@ -130,9 +138,20 @@ html,body,.main-body .row, .main-content, .sidebar-content {
 
 #footer {
     height: 150px;
-    background: #000
+    background: #000;
+    font-size: 0.85em;
+    color: #CCC;
+    font-family: "proxima_nova_ltsemibold";
 }
-
+.footer-logo img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+.copyright {
+    padding-top: 10px;
+    text-align: right;
+}
 h1,
 h2 {
     color: #3c799f;
@@ -155,4 +174,7 @@ h4 {
 h5, h6 {
     font-size: 1em
 }
+/** title bar links **/
 
+
+/** End title bar links **/
