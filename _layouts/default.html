@@ -35,7 +35,9 @@
             {{content}}
                     </div>
                 </div>
-                <div class="sidebar-content col-md-3" >{% markdown sidebar.md %}
+                <div class="sidebar-content col-md-3" >
+                {% capture sb %}{% include sidebar.md %}{% endcapture %}
+                {{ sb | markdownify }}
                 </div>
             <!--</div>-->
         </div>
