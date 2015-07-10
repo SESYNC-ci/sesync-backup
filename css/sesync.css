@@ -122,19 +122,29 @@ html,body{
 }
     /* Medium Devices, Desktops */
 	@media only screen and (min-width : 992px) {
-        #wrap {
+        .contentpage {
             background: transparent url('../images/desktop-zone-content-bg.png') repeat-y;
+            background-position: center;
+        }
+        .frontpage {
+            background: transparent url('../images/desktop-zone-content-bg-fp.png') repeat-y;
             background-position: center;
         }
 	}
 
 	/* Large Devices, Wide Screens */
 	@media only screen and (min-width : 1200px) {
-        #wrap {
+        .contentpage {
             background: transparent url('../images/desktop-zone-content-bg-lg.png') repeat-y;
             background-position: center;
         }
+        .frontpage {
+            background: transparent url('../images/desktop-zone-content-bg-lg-fp.png') repeat-y;
+            background-position: center;
+        }
 	}
+	
+
 
 .list-inline {
     margin-left: 0px;

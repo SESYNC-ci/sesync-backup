@@ -1,7 +1,7 @@
 ---
 title: Sample Page
 layout: default
-menu: 1
+menu: 3
 ---
 
 # H1 Header
