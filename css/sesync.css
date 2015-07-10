@@ -172,6 +172,38 @@ html,body{
 }
 .sidebar-content {
     /*background: #595757;*/
+    color: #EEE;
+}
+.sidebar-content ul {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+.sidebar-content li {
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 8px;
+    
+}
+.sidebar-content a {
+    text-decoration: none;
+    color: #85e751;
+}
+
+.sidebar-content h1 {
+    font-family: "proxima_nova_thextrabold";
+    color: #FFF;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.sidebar-content h2 {
+    font-family: "proxima_nova_thextrabold";
+    color: #FFF;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 12px;
 }
 
 #wrap { 
