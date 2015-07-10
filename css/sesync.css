@@ -99,7 +99,7 @@ html,body,.main-body>.row, .main-content, .sidebar-content {
 .logo-row {
     background: #000 none repeat;
     padding: 15px;
-    height: 100px;
+    height: 115px;
 }
 
 .page-header {
@@ -114,12 +114,42 @@ html,body,.main-body>.row, .main-content, .sidebar-content {
     min-height: 100%;
     height: 100%;
     background: blue;
-    margin: 0 auto -100px;
-    padding: 0 0 100px;
+    margin: 0 auto -115px;
+    padding: 0 0 115px;
+}
+.list-inline {
+    margin-left: 0px;
+}
+.menu-links {
+    height: 35px;
+    background: #3b3f42;
+}
+.menu-links li>a {
+    font-family: "proxima_nova_rgbold";
+    color: #85e751;
+
+}
+.menu-links li {
+    font-family: "proxima_nova_rgbold";
+    color: #85e751;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 35px;
+}
+.menu-links li:hover>a {
+    text-decoration: none;
+    color: #000;
+}
+.menu-links li:hover {
+    background: #D4D4D4;
 }
 
 .main-content {
     background: #FFF;
+    margin: 0 auto 35px;
 }
 .sidebar-content {
     background: #595757;

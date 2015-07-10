@@ -24,7 +24,16 @@
         <div class="main-body container">
             <div class="row" >
                 <div class="main-content col-md-9" >
+                    <div class="row">
+                        <div class=" menu-links" ><ul class="list-inline">
+                                {% for p in site.pages | sort:"menu" %}
+                                {% if p.menu %}<li><a href="{{p.url}}">{{ p.title }}</a></li> {% endif %}
+                                {% endfor %}
+                        </ul></div>
+                    </div>
+                    <div class="row">
             {{content}}
+                    </div>
                 </div>
                 <div class="sidebar-content col-md-3" >
                 </div>
