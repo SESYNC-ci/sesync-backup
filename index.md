@@ -28,4 +28,3 @@ This is some raw text
 
 Any page that has 'menu' listed in the header will be included in the top menu. Optionally, items may also have a 'menutitle' attribute to use a different name for the menu link. In the case of this page, we want it to show up as Home rather than the default Sample Page title.
 
-test
