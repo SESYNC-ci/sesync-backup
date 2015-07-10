@@ -23,15 +23,15 @@
         {% include header.html %}
         <div class="main-body container">
             <!--<div class="row" >-->
-                <div class="main-content col-md-9" >
+                <div class="col-md-9" >
                    <div class="row">
-                        <div class=" menu-links" ><ul class="list-inline">
+                        <div class="menu-links" ><ul class="list-inline">
                                 {% for p in site.pages | sort:"menu" %}
                                 {% if p.menu %}<li><a href="{{site.baseurl}}{{p.url}}">{% if p.menutitle %}{{ p.menutitle }}{% else %}{{ p.title }}{% endif %}</a></li> {% endif %}
                                 {% endfor %}
                         </ul></div>
                     </div>
-                    <div class="row">
+                    <div class="row main-content ">
             {{content}}
                     </div>
                 </div>

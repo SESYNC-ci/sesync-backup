@@ -168,7 +168,7 @@ html,body{
 
 .main-content {
     /*background: #FFF;*/
-    margin: 0 auto 35px;
+    padding-left: 10px;
 }
 .sidebar-content {
     /*background: #595757;*/
