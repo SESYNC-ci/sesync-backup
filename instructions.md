@@ -8,11 +8,13 @@ menutitle: Instructions
 
 This jekyll template supports the following features:
 
-* single top menu
+* Style Samples
+* Title and sub Title.
+* Top Menu
 * Sidebar navigation
-* customizable copyright
+* Customizable copyright
 
-# Style Examples
+## Style Examples
 
 # H1 Header
 
@@ -24,7 +26,11 @@ This jekyll template supports the following features:
 
 This is some raw text
 
-## Adding items to the top menu
+## Site Title
+
+Open the _config.yml and edit the title and subtitle fields. They will appear in the upper right of every rendered page.
+
+## Top Menu
 
 Any page that has 'menu' listed in the header will be included in the top menu. Optionally, items may also have a 'menutitle' attribute to use a different name for the menu link. In the case of this page, we want it to show up as Home rather than the default Sample Page title. You can take a look at page1.md and notice it only has the 'menu' option specifying its the first one.
 
@@ -45,7 +51,7 @@ Edit the markdown file located at _includes/sidebar.md. Below is what that file 
 
 </pre>
 
-# Customizing the Copyright
+## Customizing the Copyright
 
 Open up _config.yml and edit the copyright section.
 
