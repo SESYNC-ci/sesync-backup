@@ -48,3 +48,7 @@ Edit the markdown file located at _includes/sidebar.md. Below is what that file 
 # Customizing the Copyright
 
 Open up _config.yml and edit the copyright section.
+
+# Customizing css
+
+edit the css/custom.css file
