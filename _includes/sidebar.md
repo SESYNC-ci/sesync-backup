@@ -1,15 +1,3 @@
-# Sidebar title
+# About SESYNC
 
-* List item
-* another item
-
-
-Here's a paragraph of some short text. If this long enough, it will wrap around
-
-# Related Stuff
-
-* [Link list item](http://www.sesync.org)
-* [Link](https://cnn.com)
-
-
-## Sidebar subtitle
+The National Socio-Environmental Synthesis Center (SESYNC) is dedicated to accelerating scientific discovery at the interface of human and ecological systems. We support new interdisciplinary collaborations that pursue data-driven solutions to pressing socio-environmental problems. SESYNC features a range of services from project inception through results dissemination, including supporting the team science process, meeting planning and facilitation, travel and logistical support, and cyberinfrastructure resources. SESYNC is funded by an award to the University of Maryland from the National Science Foundation.
